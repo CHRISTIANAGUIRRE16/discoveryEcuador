@@ -1,0 +1,18 @@
+<div class="roulette" [ngClass]="{ spinning: spinning }">
+  <div class="category" *ngFor="let category of categories" [style.background-color]="category.color">
+    {{ category.name }}
+  </div>
+</div>
+
+<div *ngIf="showQuestion" class="question">
+  <h2>{{ questionText }}</h2>
+  <div class="options">
+    <div *ngFor="let option of options" class="option" (click)="checkAnswer(option)">
+      {{ option }}
+    </div>
+  </div>
+  <div class="message">{{ message }}</div>
+  <button (click)="reset()">Next Question</button>
+</div>
+
+<button *ngIf="!spinning && !showQuestion" (click)="spinWheel()">Spin the Wheel</button>

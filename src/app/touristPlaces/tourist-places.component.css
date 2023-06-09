@@ -1,0 +1,72 @@
+/* styles.css */
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #f8f8f8;
+  padding: 30px;
+  text-align: center;
+}
+
+
+/* styles.css */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 55px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 78%;
+  background: linear-gradient(to right, rgb(83, 192, 242), rgb(114, 199, 245), rgb(46, 108, 201), rgb(176, 63, 142));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 55px;
+
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card .btn {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+body{
+  background-color: #ccc;
+}
+.jumbotron{
+  background: linear-gradient(to right, rgb(176, 63, 142), rgb(46, 108, 201), rgb(114, 199, 245), rgb(83, 192, 242));
+}
